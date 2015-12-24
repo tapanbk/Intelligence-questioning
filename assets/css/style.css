@@ -1,0 +1,274 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2015, 9:51:02 PM
+    Author     : Hacker
+*/
+
+
+    a{
+        font-size: 20px;
+        font-weight: bolder;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        margin-right: 7px;
+        margin-bottom: 12px;
+        color: #1b6d85;
+        background-color: #fff;
+        padding: 4px 13px;
+        border-radius: 7px;
+    }
+    
+    a:last-child
+    {
+        margin-right: 0px;
+      
+        
+    }
+  a:hover {
+    text-decoration:none;
+    background-color: #1b6d85;
+    color: #fff;
+}
+
+.answer_display span
+{
+    float:right;
+    font-size: 25px;
+    color: #000;
+}
+.bottom_separator
+{
+	width:100%;
+	height:2px;
+	background-color:#cc3333;
+	float:left;
+        margin:3px 0px; 
+        border-radius: 5px;
+	
+	
+}
+
+table tr
+{
+  
+    border-top: 2px solid #1b6d85;
+    border-bottom: 2px solid #1b6d85;
+     
+}
+
+
+body
+{
+    font-family:"Times New Roman",Georgia,Serif;
+    
+}
+
+#cntdwn{
+            font-family: cursive,fantasy;
+            font-size: 11em;
+            font-weight: bold;
+            width:100%;
+            color:red;
+            border:3px dashed darkblue;  
+            -moz-border-radius:15px;  /* firefox */
+	        border-radius:15px; /* Opera  chrome */
+	        -webkit-border-radius:15px;
+           
+            background-color:gainsboro;
+            float: right;
+            margin-bottom: 5px;
+            margin-left:1px;
+			
+    }
+  
+ button[type="submit"]
+ {
+     margin-right: 4px;
+     width:30%;
+     margin-bottom: 5px;
+ }
+ button[type="submit"].points
+ {
+      width:47%;
+     margin-right: 10px;
+     font-size: 20px;
+ }
+ 
+
+ .box 
+ {
+     padding: 0px 6px;
+     font-size: 20px;
+     margin-bottom: 0px;
+    
+ }
+ .group_points table tr, .group_points table
+ {
+     font-size: 25px;
+     margin-bottom:0px;
+     padding-bottom:0px; 
+     margin-left:0px;
+     padding-left:0px;
+ }
+ .points_table
+ {
+     margin-left:0px;
+     padding-left:0px;
+ } 
+
+
+
+ .box table
+ {
+    margin-bottom: 2px; 
+ }
+.event_image
+{
+    padding: 0px;
+    margin: 0px;
+    padding-left:10px;
+    
+    
+}
+.event_image img
+{
+    border-radius: 2px;
+    padding: 0px;
+    margin: 0px; 
+    height:120px;
+    width:165px;
+}
+
+
+
+img{
+    border-radius: 10px;
+}
+
+.main_header
+{
+    background-color:#1B6D85;
+    
+    //background-color: #003399;
+    padding: 3px 0px;
+    border-radius: 5px;
+}
+
+.message1{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+#pr{
+    margin:2px 0px 0px 50px;
+    padding: 4px 55px;
+    background-color: #fff;
+    color:#1b6d85;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 7px;
+    font-size: 24px;
+   
+        
+}
+
+#pr:hover
+{
+   color: #fff;
+  background-color:#1b6d85;
+}
+.question_display_box
+{
+    height:400px;
+    border:3px dashed darkblue;
+    border-radius: 5px;
+    float:left;
+    border-radius: 5px;
+    padding:5px 10px 5px 30px;
+    font-family:Kartika;
+    color: #003366;
+    font-weight: bolder;
+    
+}
+.question_display_box h3
+{
+    font-weight: bolder;
+    font-size: 35px;
+   
+    
+}
+
+#question_display a img
+{
+   
+   margin: 0px;
+   padding: 0px;
+   border-radius: 15px;
+   height:300px;
+  
+  
+}
+
+.question_control button
+{
+    font-size: 16px;
+}
+.round_details table
+{
+    margin-bottom: 5px;
+}
+.row
+{
+    margin-bottom: 2px;   
+    
+}
+
+.timer
+{
+    margin-left:0px;
+    padding-left: 5px;
+ 
+}
+.title
+{
+    padding-top: 20px;
+    line-height:38px;
+    
+}
+.title span
+{
+    font-size:25px;
+}
+
+.title_hilighter
+{
+	width:100%;
+	height:19px;
+	background-color: #cc3333;
+	float:right;
+	margin-bottom: 1px;
+        border-radius: 2px;	
+}
+
+
+
+
+.title_wrapper
+{
+
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size: 3.1em;
+        color: #fff;
+        text-align: center;
+        margin: 0xp;
+        padding: 0px;
+        padding-right: 5px;
+}
+

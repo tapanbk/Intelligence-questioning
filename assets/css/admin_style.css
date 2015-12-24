@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 26, 2015, 12:21:14 PM
+    Author     : Hacker
+*/
+
+
+body{
+          background-color: #F5F5F5;
+          color: #333333;
+      }
+    .navigation{
+    	margin-bottom: 20px;
+        margin-top: 5px;
+        border-radius: 7px;
+        
+    }
+    .glyphicon
+    {
+        float: right;
+    }
+    .left-nav
+    {
+     background-color:#F5F5F5;
+     border-radius: 7px;
+     font-weight: bold;
+     color: #F5F5F5;
+     font-size: 16px;
+     padding-left: 0px;
+     
+    }
+     .left-nav li
+     {
+         border: 1px solid #BDBDBD;
+         border-radius: 7px;
+        
+     }
+    .left-nav li a:hover
+    {
+        background-color:#fff ;
+    }
+ 
+    
+    .message1 span
+    {
+      
+       margin-bottom: 2px;
+       font-size: 13px;
+    }
+    .message1 table
+    {
+        margin-top: 30px;
+    }
+    .btn
+    {
+        margin-right: 10px;
+    }
+    .mainbody
+    {
+        text-align: center;
+        border-top:1px solid #BDBDBD;
+        padding-top: 20px;
+        padding-left: 30px;
+        
+    }
+    .message2{
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .message1 #no_answer
+    {
+        font-size: 18px;
+        margin-top: 30px;
+        display: inline-block;
+      
+    }
+    .reset_all button[type="submit"]
+        {
+            margin-bottom:30px;
+            display:block;
+        }
+        
+      .footer
+      {
+          margin: 25px 0px;
+          padding: 15px 0px;
+          text-align: center;
+          background-color:#337AB7;
+          border-radius: 7px;
+          color:#fff;
+          font-size: 15px;
+          text-transform: uppercase;
+      }
